@@ -16,5 +16,5 @@ In this project I have used a time-series dataset which has the following column
 Throughout this project I have achieved the following
   1. Handled missing values in the dataset by imputing them using KNN
   2. Built LSTM Model to forecast the Surface Treating Pressure given the Slurry Rate and Proppant Concentration in the current timestep "Predicting y(t+1) using X(t)".
-  3. Explored different window sizes (30, 60, 90, 180 seconds) and their corresponding LSTM Model performance.
+  3. Explored different window sizes (30, 60, 90 seconds) and their corresponding LSTM Model performance.
   4. Absolute error between the final LSTM Model STP Prediction and Actual STP is approximately 20 PSI (Negligable).
